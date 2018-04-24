@@ -1,7 +1,6 @@
 # ServerSideScrapes project
 
-Console java application to scrapes the Sainsbury’s grocery site 
-- Berries, Cherries, Currants page and returns a JSON array of all the products on the page.
+Console java application to scrapes the Sainsbury’s grocery site Berries, Cherries, Currants page and returns a JSON array of all the products on the page.
 
 
 ## Getting Started
@@ -15,9 +14,9 @@ Apache Maven 3.5.3
 
 ### Maven Dependencies
 
-jsoup - parse HTML
-gson - to generate JSON format output
-junit - for test code
+-jsoup - parse HTML
+-gson - to generate JSON format output
+-junit - for test code
 
 ```
 		<dependency>
