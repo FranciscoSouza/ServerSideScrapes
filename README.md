@@ -9,14 +9,14 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them
-Java 1.7 or high
-Apache Maven 3.5.3
+* Java 1.7 or high
+* Apache Maven 3.5.3
 
 ### Maven Dependencies
 
--jsoup - parse HTML
--gson - to generate JSON format output
--junit - for test code
+* jsoup - parse HTML
+* gson - to generate JSON format output
+* junit - for test code
 
 ```
 		<dependency>
@@ -48,12 +48,12 @@ To Install dependencies, compile, and test:
 
 ### Test
 Test scenarios:
--testShouldReturnTheRightJSON
-	Checked if the JSON is returning properly 
--testJSONIsEmpty
-	Checked if the return for a wrong URL is fine
--testgetProducts
-	Checked if one product was returned properly
+* testShouldReturnTheRightJSON
+	- *Checked if the JSON is returning properly* - 
+* testJSONIsEmpty
+	- *Checked if the return for a wrong URL is fine* - 
+* testgetProducts
+	- *Checked if one product was returned properly* - 
 
 Run only the tests:
 ```
