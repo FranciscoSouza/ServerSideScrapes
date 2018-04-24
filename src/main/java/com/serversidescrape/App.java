@@ -14,7 +14,7 @@ public class App {
 
 	public static void main(String[] args) {
 		scraperUtil = new ScraperSite();
-		System.out.println(scraperUtil.startScrapeSite(URL_TO_SCRAPE));
+		scraperUtil.startScrapeSite(URL_TO_SCRAPE);
 
 	}
 }

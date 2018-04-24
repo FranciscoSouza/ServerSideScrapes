@@ -26,6 +26,7 @@ public class ScraperSite {
 	 */
 	public String startScrapeSite(String url) {
 		Document doc = null;
+		String outputJSON = "";
 		try {
 			// The loading phase comprises the fetching and parsing of the HTML into a
 			// Document
@@ -38,7 +39,10 @@ public class ScraperSite {
 			e.printStackTrace();
 		}
 		// Selecting
-		return generateJSON(getProducts(doc));
+		outputJSON = generateJSON(getProducts(doc));
+		// just for print propose 
+		System.out.println(outputJSON);
+		return outputJSON;
 	}
 
 	/**
